@@ -1,0 +1,45 @@
+
+.desconto {
+    background-color: $title;
+}
+
+.desconto__texto {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: $white;
+}
+
+.storename {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: $title;
+}
+
+.introducao {
+    padding-top: 10rem;
+    background-image: url('../img/intro-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 38rem;
+}
+
+.introducao__container h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: $white;
+    line-height: 8rem;
+}
+
+.introducao__container p {
+    font-weight: 600;
+    font-size: 18px;
+    color: $white;
+    max-width: 460px;
+    line-height: 3.6rem;
+}
